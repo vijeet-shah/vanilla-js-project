@@ -1,4 +1,4 @@
-# vanilla-js-project
+# Vanilla-js-project
 25 Vanilla Javascript Project Challenge !
 
 Understanding the fundamentals of a programming language like JavaScript is crucial for becoming a skilled developer, whether you're aiming to be a front-end, back-end, or full-stack developer. Here's why having a strong foundation in fundamentals is important:
