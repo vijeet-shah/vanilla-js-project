@@ -1,0 +1,96 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.header {
+  text-align: center;
+  background-color: #2e86de;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.review-container {
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  width: 30rem;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.user-name {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.job-title {
+  margin: 0.2rem 0;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.review-text {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.arrow-button {
+  border: none;
+  background-color: #2e86de;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.arrow-button:hover {
+  background-color: #1e6ac0;
+}
+
+.surprise-button {
+  display: block;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.surprise-button:hover {
+  background-color: #c0392b;
+}
