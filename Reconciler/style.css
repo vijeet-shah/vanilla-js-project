@@ -1,0 +1,89 @@
+/* Reset some default styles to create a consistent baseline */
+body,
+div,
+p,
+h1,
+h2,
+h3,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+/* Apply a background color and set the text color for the entire page */
+body {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Style the main container */
+#mainArea {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style individual todo items */
+#mainArea > div {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+#mainArea > div:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style todo item title */
+#mainArea > div > span:first-child {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Style todo item description */
+#mainArea > div > span:nth-child(2) {
+  color: #666;
+}
+
+/* Style delete button */
+#mainArea > div > button {
+  background-color: #ff4136;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#mainArea > div > button:hover {
+  background-color: #d40000;
+}
+
+/* Center the page content vertically and horizontally */
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Optional: Add a responsive design for smaller screens */
+@media (max-width: 768px) {
+  #mainArea {
+    padding: 10px;
+  }
+}
